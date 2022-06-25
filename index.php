@@ -38,10 +38,15 @@
   return [$primario, $secundario];
   }
   
+  $item_select = "";
+  $tier_select = "";
+  $enchant_select = "";
 
   if(isset($_POST['submit1']))
   { 
-    $gridRadios = $_POST['gridRadios'];
+    $item_select = $_POST['item_select'];
+    $tier_select = $_POST['tier_select'];
+    $enchant_select = $_POST['enchant_select'];
     $tipo_item = $_POST['tipo_item'];
     $material_select = $_POST['material_select'];
     //$vl_artefato = $_POST['vl_artefato'];
@@ -103,7 +108,12 @@
 
 
     }
-    echo $gridRadios;
+
+
+    echo $item_select;
+    echo $tier_select;
+    echo $enchant_select;
+
     $porcentagem_retorno = $porcentagem_retorno*100;
     $cadastrar = "INSERT INTO cadastrados(tipo_item,material_select,porcentagem_retorno,qnt_primario,qnt_secundario,qnt_item) 
     VALUES('$tipo_item','$material_select','$porcentagem_retorno','$qnt_primario','$qnt_secundario','$qnt_item')";
@@ -164,9 +174,9 @@
         <div class="card card-cover  overflow-hidden text-white rounded-5 " style="background: #ec552c">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
             <!-- ESCREVER CODIGO AQUI DENTRO-->
-            <!-- Sanfona 1 -->
             <form action="oldindex.php" method="POST">
               <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- Sanfona 1 (ITENS) -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -176,47 +186,38 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                           <!-- Selecionar item por imagem -->
-                          <img src="itens/black.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimg" >
+                          <img src="itens/black.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgitem" >
                           <figcaption class="figure-caption">Item que quer craftar</figcaption>
                           <table class="table">
                             <tbody>
                               <fieldset class = "form-group">
                                 <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option1" onclick="$nada = a1();" > <img src="itens/a1.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option2" onclick="$nada = a2();"> <img src="itens/a2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><img src="itens/b1.png" class="img-thumbnail" alt="..." name ="testeimg3" type ="button" onclick = "value = 'terceira3'"></th>
-                                  <th scope="col"><img src="itens/b2.png" class="img-thumbnail" alt="..." name ="testeimg4" type ="button" onclick = "value = 'quarta4'"></th>
-                                  <th scope="col"><img src="itens/f1.png" class="img-thumbnail" alt="..."></th>
-                                  <th scope="col"><img src="itens/f2.png" class="img-thumbnail" alt="..."></th>
-                                  <th scope="col"><img src="itens/g1.png" class="img-thumbnail" alt="..."></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option1" onclick="item1();"> <img src="itens/a1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option2" onclick="item2();"> <img src="itens/a2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option3" onclick="item3();"> <img src="itens/b1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option4" onclick="item4();"> <img src="itens/b2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option5" onclick="item5();"> <img src="itens/f1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option6" onclick="item6();"> <img src="itens/f2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option7" onclick="item7();"> <img src="itens/g1.png" class="img-thumbnail"></input></th>
                                   
                                 </tr>
                                 <tr>
-                                  <td><img src="itens/g1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/g2.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/h1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/h2.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/m1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/m2.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/n1.png" class="img-thumbnail" alt="..."></td>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option8"  onclick="item8();"> <img src="itens/g2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option9"  onclick="item9();"> <img src="itens/h1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option10" onclick="item10();"> <img src="itens/h2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option11" onclick="item11();"> <img src="itens/m1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option12" onclick="item12();"> <img src="itens/m2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option13" onclick="item13();"> <img src="itens/n1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option14" onclick="item14();"> <img src="itens/n2.png" class="img-thumbnail"></input></th>
                                 </tr>
                                 <tr>
-                                  <td><img src="itens/n2.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                </tr>
-                                <tr>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
-                                  <td><img src="itens/b1.png" class="img-thumbnail" alt="..."></td>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option15" onclick="item15();"> <img src="itens/a2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option16" onclick="item16();"> <img src="itens/b2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option17" onclick="item17();"> <img src="itens/f2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option18" onclick="item18();"> <img src="itens/g2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option19" onclick="item19();"> <img src="itens/h2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option20" onclick="item20();"> <img src="itens/m2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="option21" onclick="item21();"> <img src="itens/n2.png" class="img-thumbnail"></input></th>
                                 </tr>
                               </fieldset>
                             </tbody>
@@ -224,118 +225,172 @@
                         </div>
                       </div>
                     </div>
-              <!-- Sanfona 2 -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Inserir valores item
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <!-- Primeira caixa choose -->
-                      <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Tipo de Item</label>
-                        <select class="form-select" id="tipo_item" name="tipo_item">
-                          <option value="One hand">One hand</option>
-                          <option value="Two Handed">Two Handed</option>
-                          <option value="head/boots">head/boots</option>
-                          <option value="chest">chest</option>
-                        </select>
-                      </div>
-                      <!-- select material : Mais Madeira > Menos Barra,Mais Barra > Menos Madeira,Mais Madeira > Menos Couro,Mais Couro > Menos Madeira,Mais Mais Madeira > Menos Tecido,Mais Tecido > Menos Madeira,Apenas um Material -->
-                      <!-- Segunda caixa choose  -->
-                      <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Com Artefato</label>
-                        <select class="form-select" id="material_select" name="material_select">
-                          <option value="Mais Madeira > Menos Barra">Mais Madeira > Menos Barra</option>
-                          <option value="Mais Barra > Menos Madeira">Mais Barra > Menos Madeira</option>
-                          <option value="Mais Madeira > Menos Couro">Mais Madeira > Menos Couro</option>
-                          <option value="Mais Couro > Menos Madeira">Mais Couro > Menos Madeira</option>
-                          <option value="Mais Mais Madeira > Menos Tecido">Mais Madeira > Menos Tecido</option>
-                          <option value="Mais Tecido > Menos Madeira">Mais Tecido > Menos Madeira</option>
-                          <option value="Apenas um Material">Apenas um Material</option>                
-                        </select>
-                      </div>
-                      <!-- Teste Artefatos
-
-                      <div class="input-group mb-3">
-                        <div class="input-group-text">
-                          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                <!-- Sanfona 2 (TIER) -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingdois">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsedois" aria-expanded="false" aria-controls="flush-collapsedois">
+                      Selecionar Tier Item
+                    </button>
+                  </h2>
+                  <div id="flush-collapsedois" class="accordion-collapse collapse" aria-labelledby="flush-headingdois" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <img src="itens/black.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgtier" >
+                      <figcaption class="figure-caption">Tier do Item</figcaption>
+                      <table class="table">
+                        <tbody>
+                          <fieldset class = "form-group">
+                            <tr>
+                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t4" value="option1" onclick="tier4();"> <img src="tiers/t4.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t5" value="option2" onclick="tier5();"> <img src="tiers/t5.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t6" value="option3" onclick="tier6();"> <img src="tiers/t6.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t7" value="option4" onclick="tier7();"> <img src="tiers/t7.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t8" value="option5" onclick="tier8();"> <img src="tiers/t8.png" class="img-thumbnail"></input></th>                           
+                            </tr>
+                          </fieldset>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <!-- Sanfona 3 (ENCANTAMENTO) -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Selecionar Encantamento Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <img src="itens/black.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgenchant" >
+                      <figcaption class="figure-caption">Encantamento do Item</figcaption>
+                      <table class="table">
+                        <tbody>
+                          <fieldset class = "form-group">
+                            <tr>
+                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="ponto0" value="option1" onclick="enchant0();"> <img src="enchant/0.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="ponto1" value="option2" onclick="enchant1();"> <img src="enchant/1.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="ponto2" value="option3" onclick="enchant2();"> <img src="enchant/2.png" class="img-thumbnail"></input></th>
+                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="ponto3" value="option4" onclick="enchant3();"> <img src="enchant/3.png" class="img-thumbnail"></input></th>                           
+                            </tr>
+                          </fieldset>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <!-- Sanfona 4 (QNT MATERIAIS) -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Inserir Valores Material
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <!-- Primeira caixa choose -->
+                        <div class="input-group mb-3">
+                          <label class="input-group-text" for="inputGroupSelect01">Tipo de Item</label>
+                          <select class="form-select" id="tipo_item" name="tipo_item">
+                            <option value="One hand">One hand</option>
+                            <option value="Two Handed">Two Handed</option>
+                            <option value="head/boots">head/boots</option>
+                            <option value="chest">chest</option>
+                          </select>
                         </div>
-                        <input type="text" class="form-control" aria-label="Text input with checkbox" value="Valor artefatos" name="vl_artefato">
-                      </div>
-                      -->
+                        <!-- select material : Mais Madeira > Menos Barra,Mais Barra > Menos Madeira,Mais Madeira > Menos Couro,Mais Couro > Menos Madeira,Mais Mais Madeira > Menos Tecido,Mais Tecido > Menos Madeira,Apenas um Material -->
+                        <!-- Segunda caixa choose  -->
+                        <div class="input-group mb-3">
+                          <label class="input-group-text" for="inputGroupSelect01">Com Artefato</label>
+                          <select class="form-select" id="material_select" name="material_select">
+                            <option value="Mais Madeira > Menos Barra">Mais Madeira > Menos Barra</option>
+                            <option value="Mais Barra > Menos Madeira">Mais Barra > Menos Madeira</option>
+                            <option value="Mais Madeira > Menos Couro">Mais Madeira > Menos Couro</option>
+                            <option value="Mais Couro > Menos Madeira">Mais Couro > Menos Madeira</option>
+                            <option value="Mais Mais Madeira > Menos Tecido">Mais Madeira > Menos Tecido</option>
+                            <option value="Mais Tecido > Menos Madeira">Mais Tecido > Menos Madeira</option>
+                            <option value="Apenas um Material">Apenas um Material</option>                
+                          </select>
+                        </div>
+                        <!-- Teste Artefatos
 
-                      <!-- Primeira caixa -->
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Valor do Retorno de Recursos(%)</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"name="porcentagem_retorno" required>
-                      </div>
+                        <div class="input-group mb-3">
+                          <div class="input-group-text">
+                            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                          </div>
+                          <input type="text" class="form-control" aria-label="Text input with checkbox" value="Valor artefatos" name="vl_artefato">
+                        </div>
+                        -->
 
-                      <!-- Segunda caixa -->
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Quantidade de Itens a serem produzidos: </span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
-                      </div>
-
-                      <!-- Terceira Caixa -->
-                      <div class="row g-3">
-                        <label  class="form-label">Recursos já Possuidos:</label>
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Material que mais usa" aria-label="inputGroup-sizing-default" name="qnt_primario" required>
+                        <!-- Primeira caixa -->
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Valor do Retorno de Recursos(%)</span>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"name="porcentagem_retorno" required>
                         </div>
 
-                      <!-- Quarta Caixa -->
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Material que menos usa" aria-label="inputGroup-sizing-default" name="qnt_secundario" required>
+                        <!-- Segunda caixa -->
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Quantidade de Itens a serem produzidos: </span>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
                         </div>
+
+                        <!-- Terceira Caixa -->
+                        <div class="row g-3">
+                          <label  class="form-label">Recursos já Possuidos:</label>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Material que mais usa" aria-label="inputGroup-sizing-default" name="qnt_primario" required>
+                          </div>
+
+                        <!-- Quarta Caixa -->
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Material que menos usa" aria-label="inputGroup-sizing-default" name="qnt_secundario" required>
+                          </div>
+                        </div>
+                        <br>
+
+                        <!-- Quinta Caixa 
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Valor do Item</span>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item">
+                        </div>
+                        -->
+
+                        <!-- Sexta Caixa 
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Valor do Material Primário</span>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_primario">
+                        </div>
+                        
+                        -->
+                      
+                        <!-- Setima Caixa 
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Valor do Material Secundário</span>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_secundário">
+                        </div>
+                        
+                        -->
+                        
+                        
+
+                        <!-- Botão -->
+                        <button type="submit" class="btn btn-primary btn-lg" name="submit1" style ="background: #531405">Cadastrar</button>
+
+                        
+
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            
+                          </li>
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Geraldo Bisneto</small>
+                          </li>
+                          <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                            <small>5d</small>
+                          </li>
+                        </ul>
                       </div>
-                      <br>
-
-                      <!-- Quinta Caixa 
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Valor do Item</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item">
-                      </div>
-                      -->
-
-                      <!-- Sexta Caixa 
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Valor do Material Primário</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_primario">
-                      </div>
-                      
-                      -->
-                    
-                      <!-- Setima Caixa 
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Valor do Material Secundário</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_secundário">
-                      </div>
-                      
-                      -->
-                      
-                      
-
-                      <!-- Botão -->
-                      <button type="submit" class="btn btn-primary btn-lg" name="submit1" style ="background: #531405">Cadastrar</button>
-
-                      
-
-                      <ul class="d-flex list-unstyled mt-auto">
-                        <li class="me-auto">
-                          
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                          <small>Geraldo Bisneto</small>
-                        </li>
-                        <li class="d-flex align-items-center">
-                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                          <small>5d</small>
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
