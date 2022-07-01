@@ -1,86 +1,86 @@
-// ITENS
+// FUNCAO PRINTAR IMAGEM NAS DIVS
 function item1(){
-    document.getElementById("trocarimgitem").src="itens/a1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/oh_mace_t8_pt0.png";
 }
 
 function item2(){
-    document.getElementById("trocarimgitem").src="itens/a2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/th_cursed0_t8_pt0.png";
 }
 
 function item3(){
-    document.getElementById("trocarimgitem").src="itens/b1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/capacete_cacador_t8_pt0.png";
 }
 
 function item4(){
-    document.getElementById("trocarimgitem").src="itens/b2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/peito_clerico_t8_pt0.png";
 }
 
 function item5(){
-    document.getElementById("trocarimgitem").src="itens/f1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/bota_guardiao_t8_pt0.png";
 }
 
 function item6(){
-    document.getElementById("trocarimgitem").src="itens/f2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/oh_frost_t8_pt0.png";
 }
 
 function item7(){
-    document.getElementById("trocarimgitem").src="itens/g1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/oh_nature_t8_pt0.png";
 }
 
 function item8(){
-    document.getElementById("trocarimgitem").src="itens/g2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/th_fire0_t8_pt0.png";
 }
 
 function item9(){
-    document.getElementById("trocarimgitem").src="itens/h1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/th_frost0_t8_pt0.png";
 }
 
 function item10(){
-    document.getElementById("trocarimgitem").src="itens/h2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/th_nature1_t8_pt0.png";
 }
 
 function item11(){
-    document.getElementById("trocarimgitem").src="itens/m1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/th_sagrado1_t8_pt0.png";
 }
 
 function item12(){
-    document.getElementById("trocarimgitem").src="itens/m2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/peito_t8_flat/b2.png";
 }
 
 function item13(){
-    document.getElementById("trocarimgitem").src="itens/n1.png";
+    document.getElementById("trocarimgitem").src="itens/select1/peito_t8_flat/c2.png";
 }
 
 function item14(){
-    document.getElementById("trocarimgitem").src="itens/n2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/peito_t8_flat/p2.png";
 }
 
 function item15(){
-    document.getElementById("trocarimgitem").src="itens/a2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/capacete_t8_flat/b2.png";
 }
 
 function item16(){
-    document.getElementById("trocarimgitem").src="itens/b2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/capacete_t8_flat/c0.png";
 }
 
 function item17(){
-    document.getElementById("trocarimgitem").src="itens/f2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/capacete_t8_flat/p0.png";
 }
 
 function item18(){
-    document.getElementById("trocarimgitem").src="itens/g2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/bota_t8_flat/b0.png";
 }
 
 function item19(){
-    document.getElementById("trocarimgitem").src="itens/h2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/bota_t8_flat/c1.png";
 }
 
 function item20(){
-    document.getElementById("trocarimgitem").src="itens/m2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/bota_t8_flat/c2.png";
 }
 
 function item21(){
-    document.getElementById("trocarimgitem").src="itens/n2.png";
+    document.getElementById("trocarimgitem").src="itens/select1/bota_t8_flat/p0.png";
 }
 
 
