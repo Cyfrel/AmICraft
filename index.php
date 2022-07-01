@@ -321,7 +321,7 @@
                           </li>
                           <li class="d-flex align-items-center">
                             <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                            <small>5d</small>
+                            <small>Senac</small>
                           </li>
                         </ul>
                       </div>
@@ -400,7 +400,7 @@
             </li>
             <li class="d-flex align-items-center">
               <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-              <small>5d</small>
+              <small>Senac</small>
             </li>
           </ul>
         </div>
