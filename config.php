@@ -2,13 +2,17 @@
 
     class Conexao{
         function __construct(){
-            $this->dbHost = 'localhost';
+            $this->dbHost = 'ec2-54-159-22-90.compute-1.amazonaws.com';
             $this->dbPort = 5432;
-            $this->dbUsername = 'postgres';
-            $this->dbPassword = 'admin';
-            $this->dbName = 'postgres';
+            $this->dbUsername = 'ziwbfsymrneawi';
+            $this->dbPassword = '185883be937d48252ed824353c3fdc6ec8edd499b7665ed189c973758bae931b';
+            $this->dbName = 'dcs59clq7s5jq7';
         }
-
+            // $this->dbHost = 'localhost';
+            // $this->dbPort = 5432;
+            // $this->dbUsername = 'postgres';
+            // $this->dbPassword = 'admin';
+            // $this->dbName = 'postgres';
 
         function conexaoPostgres(){
             $this->conexao = pg_connect("host=$this->dbHost port=$this->dbPort dbname=$this->dbName user=$this->dbUsername password=$this->dbPassword");
