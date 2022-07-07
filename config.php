@@ -185,27 +185,27 @@
           break;
           
         case '06':
-          return "itens/oh_frost_t8_pt0.png";
+          return "flat/oh_frost_t8_pt0.png";
           break;
           
         case '07':
-          return "itens/oh_nature_t8_pt0.png";
+          return "flat/oh_nature_t8_pt0.png";
           break;
           
         case '08':
-          return "itens/th_fire0_t8_pt0.png";
+          return "flat/th_fire0_t8_pt0.png";
           break;
           
         case '09':
-          return "itens/th_frost0_t8_pt0.png";
+          return "flat/th_frost0_t8_pt0.png";
           break;
           
         case '10':
-          return "itens/th_nature1_t8_pt0.png";
+          return "flat/th_nature1_t8_pt0.png";
           break;
           
         case '11':
-          return "itens/th_sagrado1_t8_pt0.png";
+          return "flat/th_sagrado1_t8_pt0.png";
           break;
           
         case '12':
