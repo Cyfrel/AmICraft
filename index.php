@@ -109,7 +109,7 @@
         <div class="card card-cover  h-800 overflow-hidden text-black rounded-5 " style="background: #ec552c">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
             <!-- ESCREVER CODIGO AQUI DENTRO-->
-            <form action="oldindex.php" method="POST">
+            <form action="index.php" method="POST">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <!-- Sanfona 1 (ITENS) -->
                 <div class="accordion-item">
