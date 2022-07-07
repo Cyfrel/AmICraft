@@ -121,7 +121,7 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                           <!-- Selecionar item por imagem -->
-                          <img src="itens/oh_mace_t8_pt0.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgitem" >
+                          <img src="flat/oh_mace_t8_pt0.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgitem" >
                           <figcaption class="figure-caption">Item que quer craftar</figcaption>
                           <table class="table">
                             <tbody>
