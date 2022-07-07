@@ -157,95 +157,95 @@
         case '01':
           // OH MACE
           $stringCaminhoImg = $enchant_select."_".$tier_select;
-          return "itens/oh_mace/$stringCaminhoImg.png";
+          return "oh_mace/$stringCaminhoImg.png";
           break;
           
         case '02':
           //DEMONIC CURSED
           $stringCaminhoImg = $enchant_select."_".$tier_select;
-          return "itens/th_cursed/$stringCaminhoImg.png";
+          return "th_cursed/$stringCaminhoImg.png";
           break;
           
         case '03':
           //HUNTER HELMET
           $stringCaminhoImg = $enchant_select."_".$tier_select;
-          return "itens/capacete_cacador/$stringCaminhoImg.png";
+          return "capacete_cacador/$stringCaminhoImg.png";
           break;
           
         case '04':
           //CLERIC ROBE
           $stringCaminhoImg = $enchant_select."_".$tier_select;
-          return "itens/peito_clerico/$stringCaminhoImg.png";
+          return "peito_clerico/$stringCaminhoImg.png";
           break;
           
         case '05':
           //GUARDIAN BOOTS
           $stringCaminhoImg = $enchant_select."_".$tier_select;
-          return "itens/bota_guardiao/$stringCaminhoImg.png";
+          return "bota_guardiao/$stringCaminhoImg.png";
           break;
           
         case '06':
-          return "itens/select1/oh_frost_t8_pt0.png";
+          return "itens/oh_frost_t8_pt0.png";
           break;
           
         case '07':
-          return "itens/select1/oh_nature_t8_pt0.png";
+          return "itens/oh_nature_t8_pt0.png";
           break;
           
         case '08':
-          return "itens/select1/th_fire0_t8_pt0.png";
+          return "itens/th_fire0_t8_pt0.png";
           break;
           
         case '09':
-          return "itens/select1/th_frost0_t8_pt0.png";
+          return "itens/th_frost0_t8_pt0.png";
           break;
           
         case '10':
-          return "itens/select1/th_nature1_t8_pt0.png";
+          return "itens/th_nature1_t8_pt0.png";
           break;
           
         case '11':
-          return "itens/select1/th_sagrado1_t8_pt0.png";
+          return "itens/th_sagrado1_t8_pt0.png";
           break;
           
         case '12':
-          return "itens/select1/peito_t8_flat/b2.png";
+          return "peito_t8_flat/b2.png";
           break;
           
         case '13':
-          return "itens/select1/peito_t8_flat/c2.png";
+          return "peito_t8_flat/c2.png";
           break;
           
         case '14':
-          return "itens/select1/peito_t8_flat/p2.png";
+          return "peito_t8_flat/p2.png";
           break;
           
         case '15':
-          return "itens/select1/capacete_t8_flat/b2.png";
+          return "capacete_t8_flat/b2.png";
           break;
           
         case '16':
-          return "itens/select1/capacete_t8_flat/c0.png";
+          return "capacete_t8_flat/c0.png";
           break;
           
         case '17':
-          return "itens/select1/capacete_t8_flat/p0.png";
+          return "capacete_t8_flat/p0.png";
           break;
 
         case '18':
-          return "itens/select1/bota_t8_flat/b0.png";
+          return "bota_t8_flat/b0.png";
           break;
 
         case '19':
-          return "itens/select1/bota_t8_flat/c1.png";
+          return "bota_t8_flat/c1.png";
           break;
 
         case '20':
-          return "itens/select1/bota_t8_flat/c2.png";
+          return "bota_t8_flat/c2.png";
           break;
 
         case '21':
-          return "itens/select1/bota_t8_flat/p0.png";
+          return "bota_t8_flat/p0.png";
           break;
                               
         

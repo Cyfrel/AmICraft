@@ -127,32 +127,32 @@
                             <tbody>
                               <fieldset class = "form-group">
                                 <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160801MB" onclick="item1();" checked> <img src="itens/select1/oh_mace_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201202MT" onclick="item2();"> <img src="itens/select1/th_cursed0_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000803AC" onclick="item3();"> <img src="itens/select1/capacete_cacador_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001604AT" onclick="item4();"> <img src="itens/select1/peito_clerico_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000805AB" onclick="item5();"> <img src="itens/select1/bota_guardiao_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160806MB" onclick="item6();"> <img src="itens/select1/oh_frost_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160807MB" onclick="item7();"> <img src="itens/select1/oh_nature_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160801MB" onclick="item1();" checked> <img src="itens/oh_mace_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201202MT" onclick="item2();"> <img src="itens/th_cursed0_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000803AC" onclick="item3();"> <img src="itens/capacete_cacador_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001604AT" onclick="item4();"> <img src="itens/peito_clerico_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000805AB" onclick="item5();"> <img src="itens/bota_guardiao_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160806MB" onclick="item6();"> <img src="itens/oh_frost_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160807MB" onclick="item7();"> <img src="itens/oh_nature_t8_pt0.png" class="img-thumbnail"></input></th>
                                   
                                 </tr>
                                 <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201208MB" onclick="item8();"> <img src="itens/select1/th_fire0_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201209MB" onclick="item9();"> <img src="itens/select1/th_frost0_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201210MB" onclick="item10();"> <img src="itens/select1/th_nature1_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201211MC" onclick="item11();"> <img src="itens/select1/th_sagrado1_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001612AT" onclick="item12();"> <img src="itens/select1/peito_t8_flat/b2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001613AC" onclick="item13();"> <img src="itens/select1/peito_t8_flat/c2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001614AB" onclick="item14();"> <img src="itens/select1/peito_t8_flat/p2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201208MB" onclick="item8();"> <img src="itens/th_fire0_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201209MB" onclick="item9();"> <img src="itens/th_frost0_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201210MB" onclick="item10();"> <img src="itens/th_nature1_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201211MC" onclick="item11();"> <img src="itens/th_sagrado1_t8_pt0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001612AT" onclick="item12();"> <img src="peito_t8_flat/b2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001613AC" onclick="item13();"> <img src="peito_t8_flat/c2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001614AB" onclick="item14();"> <img src="peito_t8_flat/p2.png" class="img-thumbnail"></input></th>
                                 </tr>
                                 <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000815AT" onclick="item15();"> <img src="itens/select1/capacete_t8_flat/b2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000816AC" onclick="item16();"> <img src="itens/select1/capacete_t8_flat/c0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000817AB" onclick="item17();"> <img src="itens/select1/capacete_t8_flat/p0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000818AT" onclick="item18();"> <img src="itens/select1/bota_t8_flat/b0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000819AC" onclick="item19();"> <img src="itens/select1/bota_t8_flat/c1.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000820AC" onclick="item20();"> <img src="itens/select1/bota_t8_flat/c2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000821AB" onclick="item21();"> <img src="itens/select1/bota_t8_flat/p0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000815AT" onclick="item15();"> <img src="capacete_t8_flat/b2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000816AC" onclick="item16();"> <img src="capacete_t8_flat/c0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000817AB" onclick="item17();"> <img src="capacete_t8_flat/p0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000818AT" onclick="item18();"> <img src="bota_t8_flat/b0.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000819AC" onclick="item19();"> <img src="bota_t8_flat/c1.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000820AC" onclick="item20();"> <img src="bota_t8_flat/c2.png" class="img-thumbnail"></input></th>
+                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000821AB" onclick="item21();"> <img src="bota_t8_flat/p0.png" class="img-thumbnail"></input></th>
                                 </tr>
                               </fieldset>
                             </tbody>
