@@ -1,46 +1,46 @@
 // FUNCAO PRINTAR IMAGEM NAS DIVS
 function item1(){
-    document.getElementById("trocarimgitem").src="itens/oh_mace_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/oh_mace_t8_pt0.png";
 }
 
 function item2(){
-    document.getElementById("trocarimgitem").src="itens/th_cursed0_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/th_cursed0_t8_pt0.png";
 }
 
 function item3(){
-    document.getElementById("trocarimgitem").src="itens/capacete_cacador_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/capacete_cacador_t8_pt0.png";
 }
 
 function item4(){
-    document.getElementById("trocarimgitem").src="itens/peito_clerico_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/peito_clerico_t8_pt0.png";
 }
 
 function item5(){
-    document.getElementById("trocarimgitem").src="itens/bota_guardiao_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/bota_guardiao_t8_pt0.png";
 }
 
 function item6(){
-    document.getElementById("trocarimgitem").src="itens/oh_frost_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/oh_frost_t8_pt0.png";
 }
 
 function item7(){
-    document.getElementById("trocarimgitem").src="itens/oh_nature_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/oh_nature_t8_pt0.png";
 }
 
 function item8(){
-    document.getElementById("trocarimgitem").src="itens/th_fire0_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/th_fire0_t8_pt0.png";
 }
 
 function item9(){
-    document.getElementById("trocarimgitem").src="itens/th_frost0_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/th_frost0_t8_pt0.png";
 }
 
 function item10(){
-    document.getElementById("trocarimgitem").src="itens/th_nature1_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/th_nature1_t8_pt0.png";
 }
 
 function item11(){
-    document.getElementById("trocarimgitem").src="itens/th_sagrado1_t8_pt0.png";
+    document.getElementById("trocarimgitem").src="flat/th_sagrado1_t8_pt0.png";
 }
 
 function item12(){
