@@ -124,3 +124,5 @@ function enchant2(){
 function enchant3(){
     document.getElementById("trocarimgenchant").src="enchant/3.png";
 }
+
+//imagens
