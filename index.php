@@ -7,7 +7,7 @@
   $nada = 0;
   $id = 0;
 
-  if(isset($_POST['submit_excluir'])){
+  if( 0 >= ($_POST['submit_excluir'])){
     $id_excluir = $_POST['id_excluir'];
   }else{
     $id_excluir = -13;
