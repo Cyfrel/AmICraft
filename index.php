@@ -422,10 +422,10 @@
 
 
     <!-- Seção Excluir Apenas para Testes -->
-    <div class="col">
+    <!-- <div class="col">
       <div class="card card-cover  overflow-hidden text-white rounded-5 " style="background: #ec552c">
         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-          <!-- Escrever Codigo Aqui-->
+          Escrever Codigo Aqui-
           <form action="index.php" method="POST">
             <div class="form-row align-items-center">
               <div class="col-auto">
@@ -440,7 +440,7 @@
           </form>     
         </div>
       </div>
-    </div>
+    </div> -->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
