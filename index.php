@@ -136,40 +136,42 @@
                           <!-- Selecionar item por imagem -->
                           <img src="flat/oh_mace_t8_pt0.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgitem" >
                           <figcaption class="figure-caption">Item que quer craftar</figcaption>
-                          <table class="table">
-                            <tbody>
-                              <fieldset class = "form-group">
-                                <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160801MB" onclick="item1();" checked> <img src="oh_mace/t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201202MT" onclick="item2();"> <img src="th_cursed/t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000803AC" onclick="item3();"> <img src="capacete_cacador/t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001604AT" onclick="item4();"> <img src="peito_clerico/t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000805AB" onclick="item5();"> <img src="bota_guardiao/t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160806MB" onclick="item6();"> <img src="flat/oh_frost_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160807MB" onclick="item7();"> <img src="flat/oh_nature_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  
-                                </tr>
-                                <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201208MB" onclick="item8();"> <img src="flat/th_fire0_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201209MB" onclick="item9();"> <img src="flat/th_frost0_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201210MB" onclick="item10();"> <img src="flat/th_nature1_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201211MC" onclick="item11();"> <img src="flat/th_sagrado1_t8_pt0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001612AT" onclick="item12();"> <img src="peito_t8_flat/b2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001613AC" onclick="item13();"> <img src="peito_t8_flat/c2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001614AB" onclick="item14();"> <img src="peito_t8_flat/p2.png" class="img-thumbnail"></input></th>
-                                </tr>
-                                <tr>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000815AT" onclick="item15();"> <img src="capacete_t8_flat/b2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000816AC" onclick="item16();"> <img src="capacete_t8_flat/c0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000817AB" onclick="item17();"> <img src="capacete_t8_flat/p0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000818AT" onclick="item18();"> <img src="bota_t8_flat/b0.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000819AC" onclick="item19();"> <img src="bota_t8_flat/c1.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000820AC" onclick="item20();"> <img src="bota_t8_flat/c2.png" class="img-thumbnail"></input></th>
-                                  <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000821AB" onclick="item21();"> <img src="bota_t8_flat/p0.png" class="img-thumbnail"></input></th>
-                                </tr>
-                              </fieldset>
-                            </tbody>
-                          </table>
+                          <div class="table-responsive-sm">
+                            <table class="table">
+                              <tbody>
+                                <fieldset class = "form-group">
+                                  <tr>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160801MB" onclick="item1();" checked> <img src="oh_mace/t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201202MT" onclick="item2();"> <img src="th_cursed/t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000803AC" onclick="item3();"> <img src="capacete_cacador/t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001604AT" onclick="item4();"> <img src="peito_clerico/t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000805AB" onclick="item5();"> <img src="bota_guardiao/t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160806MB" onclick="item6();"> <img src="flat/oh_frost_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="160807MB" onclick="item7();"> <img src="flat/oh_nature_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201208MB" onclick="item8();"> <img src="flat/th_fire0_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201209MB" onclick="item9();"> <img src="flat/th_frost0_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201210MB" onclick="item10();"> <img src="flat/th_nature1_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="201211MC" onclick="item11();"> <img src="flat/th_sagrado1_t8_pt0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001612AT" onclick="item12();"> <img src="peito_t8_flat/b2.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001613AC" onclick="item13();"> <img src="peito_t8_flat/c2.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="001614AB" onclick="item14();"> <img src="peito_t8_flat/p2.png" class="img-thumbnail"></input></th>
+                                  </tr>
+                                  <tr>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000815AT" onclick="item15();"> <img src="capacete_t8_flat/b2.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000816AC" onclick="item16();"> <img src="capacete_t8_flat/c0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000817AB" onclick="item17();"> <img src="capacete_t8_flat/p0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000818AT" onclick="item18();"> <img src="bota_t8_flat/b0.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000819AC" onclick="item19();"> <img src="bota_t8_flat/c1.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000820AC" onclick="item20();"> <img src="bota_t8_flat/c2.png" class="img-thumbnail"></input></th>
+                                    <th scope="col"><input class="form-check-input" type="radio" name="item_select"  value="000821AB" onclick="item21();"> <img src="bota_t8_flat/p0.png" class="img-thumbnail"></input></th>
+                                  </tr>
+                                </fieldset>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -184,19 +186,21 @@
                     <div class="accordion-body">
                       <img src="tiers/t4.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgtier" >
                       <figcaption class="figure-caption">Tier do Item</figcaption>
-                      <table class="table">
-                        <tbody>
-                          <fieldset class = "form-group">
-                            <tr>
-                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t4" value="t4" onclick="tier4();" checked> <img src="tiers/t4.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t5" value="t5" onclick="tier5();"> <img src="tiers/t5.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t6" value="t6" onclick="tier6();"> <img src="tiers/t6.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t7" value="t7" onclick="tier7();"> <img src="tiers/t7.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t8" value="t8" onclick="tier8();"> <img src="tiers/t8.png" class="img-thumbnail"></input></th>                           
-                            </tr>
-                          </fieldset>
-                        </tbody>
-                      </table>
+                      <div class="table-responsive-sm">
+                        <table class="table">
+                          <tbody>
+                            <fieldset class = "form-group">
+                              <tr>
+                                <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t4" value="t4" onclick="tier4();" checked> <img src="tiers/t4.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t5" value="t5" onclick="tier5();"> <img src="tiers/t5.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t6" value="t6" onclick="tier6();"> <img src="tiers/t6.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t7" value="t7" onclick="tier7();"> <img src="tiers/t7.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="tier_select" id="t8" value="t8" onclick="tier8();"> <img src="tiers/t8.png" class="img-thumbnail"></input></th>                           
+                              </tr>
+                            </fieldset>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -211,18 +215,20 @@
                     <div class="accordion-body">
                       <img src="enchant/0.png" class="img-thumbnail" alt="imagem alterada" id ="trocarimgenchant" >
                       <figcaption class="figure-caption">Encantamento do Item</figcaption>
-                      <table class="table">
-                        <tbody>
-                          <fieldset class = "form-group">
-                            <tr>
-                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt0" value="pt0" onclick="enchant0();" checked> <img src="enchant/0.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt1" value="pt1" onclick="enchant1();"> <img src="enchant/1.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt2" value="pt2" onclick="enchant2();"> <img src="enchant/2.png" class="img-thumbnail"></input></th>
-                              <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt3" value="pt3" onclick="enchant3();"> <img src="enchant/3.png" class="img-thumbnail"></input></th>                           
-                            </tr>
-                          </fieldset>
-                        </tbody>
-                      </table>
+                      <div class="table-responsive-sm">
+                        <table class="table">
+                          <tbody>
+                            <fieldset class = "form-group">
+                              <tr>
+                                <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt0" value="pt0" onclick="enchant0();" checked> <img src="enchant/0.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt1" value="pt1" onclick="enchant1();"> <img src="enchant/1.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt2" value="pt2" onclick="enchant2();"> <img src="enchant/2.png" class="img-thumbnail"></input></th>
+                                <th scope="col"><input class="form-check-input" type="radio" name="enchant_select" id="pt3" value="pt3" onclick="enchant3();"> <img src="enchant/3.png" class="img-thumbnail"></input></th>                           
+                              </tr>
+                            </fieldset>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -351,58 +357,56 @@
     <!-- Seção mostrar Resultados-->
     <div class="col">
       <div class="card card-cover  overflow-hidden text-white rounded-5 " style="background: #ec552c">
-        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 table-responsive-sm">
           <!-- Escrever Codigo Aqui-->
-          
-
-          <table id ='tabela_itens' class="table text-white">
-          <thead>
-            <tr>
-              <th scope="col"> ID</th>
-              <th scope="cool">Imagem do Item</th> <!-- ainda n inserida-->
-              <th scope="col">Porcentagem De
-                Retorno</th>
-              <th scope="col">Quantidade de 
-                Itens
-              </th>
-              <th scope="col">Quantidade de 
-                Materiais Primários
-              </th>
-              <th scope="col">Valor de 
-                Materiais Primarios
-              </th>
-              <th scope="col">Quantidade de 
-                Materiais Secundários
-              </th>
-              <th scope="col">Valor de 
-                Materiais Secundarios</th>
-              <th scope="col">Lucro</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php
-              while($user_data = pg_fetch_array($result))
-              {
-                echo "<tr>";
-                $lucro = $user_data['lucro'];
-                $cod_img = $user_data['cod_img'];
-                $tier_select = $user_data['tier_select'];
-                $enchant_select = $user_data['enchant_select'];
-                echo "<td class =".lucro_cor($lucro).">". $user_data['id']."</td>";
-                echo "<td class =".lucro_cor($lucro).">". " <img src=".inserir_img($cod_img,$enchant_select,$tier_select).">" ."</td>"; 
-                echo "<td class =".lucro_cor($lucro).">". $user_data['porcentagem_retorno']. "%</td>";
-                echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_item']."</td>";
-                echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_primario']."</td>";
-                echo "<td class =".lucro_cor($lucro).">$". $user_data['vl_primario']."</td>";
-                echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_secundario']."</td>";
-                echo "<td class =".lucro_cor($lucro).">$". $user_data['vl_secundario']."</td>";
-                echo "<td class =".lucro_cor($lucro).">$". $user_data['lucro']."</td>";
-                echo "</tr>";
-              }
-            ?>
-          </tbody>
-        </table>
-
+            <table id ='tabela_itens' class="table text-white">
+              <thead>
+                <tr>
+                  <th scope="col"> ID</th>
+                  <th scope="cool">Imagem do Item</th> <!-- ainda n inserida-->
+                  <th scope="col">Porcentagem De
+                    Retorno</th>
+                  <th scope="col">Quantidade de 
+                    Itens
+                  </th>
+                  <th scope="col">Quantidade de 
+                    Materiais Primários
+                  </th>
+                  <th scope="col">Valor de 
+                    Materiais Primarios
+                  </th>
+                  <th scope="col">Quantidade de 
+                    Materiais Secundários
+                  </th>
+                  <th scope="col">Valor de 
+                    Materiais Secundarios</th>
+                  <th scope="col">Lucro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+                  while($user_data = pg_fetch_array($result))
+                  {
+                    echo "<tr>";
+                    $lucro = $user_data['lucro'];
+                    $cod_img = $user_data['cod_img'];
+                    $tier_select = $user_data['tier_select'];
+                    $enchant_select = $user_data['enchant_select'];
+                    echo "<td class =".lucro_cor($lucro).">". $user_data['id']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">". " <img src=".inserir_img($cod_img,$enchant_select,$tier_select).">" ."</td>"; 
+                    echo "<td class =".lucro_cor($lucro).">". $user_data['porcentagem_retorno']. "%</td>";
+                    echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_item']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_primario']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">$". $user_data['vl_primario']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">". $user_data['qnt_secundario']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">$". $user_data['vl_secundario']."</td>";
+                    echo "<td class =".lucro_cor($lucro).">$". $user_data['lucro']."</td>";
+                    echo "</tr>";
+                  }
+                ?>
+              </tbody>
+            </table>
+        
           <ul class="d-flex list-unstyled mt-auto">
             <li class="me-auto">
             
