@@ -7,6 +7,12 @@
   $nada = 0;
   $id = 0;
 
+  if(isset($_POST['submit_excluir'])){
+    $id_excluir = $_POST['id_excluir'];
+  }else{
+    $id_excluir = -13;
+  }
+
   if(isset($_POST['submit1']))
   { 
 
@@ -62,9 +68,16 @@
     $porcentagem_retorno = $porcentagem_retorno*100;
     $cadastrar = "INSERT INTO cadastrados(tier_select,enchant_select,vl_item,cod_img,porcentagem_retorno,qnt_primario,vl_primario,qnt_secundario,vl_secundario,lucro,qnt_item) 
     VALUES('$tier_select','$enchant_select','$vl_item','$cod_img','$porcentagem_retorno','$qnt_primario','$vl_primario','$qnt_secundario','$vl_secundario','$lucro','$qnt_item')";
-    
-
     $cadastrarItem = pg_query($conexaoPg, $cadastrar);
+    
+    //Excluir por id APENAS PARA TESTE
+    if($id_excluir >= 0){
+    $excluirI = "DELETE FROM cadastrados WHERE id = $id_excluir";
+
+    $excluirItem = pg_query($conexaoPg, $excluirI);
+    $id_excluir = -13;
+    }
+    
 
   } 
   
@@ -241,7 +254,7 @@
 
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="inputGroup-sizing-default">Valor do Item que quer Produzir: </span>
-                          <input type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item" required>
+                          <input type="number" min="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item" required>
                         </div>
                         <!-- Teste Artefatos
 
@@ -262,7 +275,7 @@
                         <!-- Segunda caixa -->
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="inputGroup-sizing-default">Quantidade de Itens a serem produzidos: </span>
-                          <input type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
+                          <input type="number" min="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
                         </div>
 
                         <!-- Terceira Caixa -->
@@ -403,6 +416,28 @@
               <small>Senac</small>
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Seção Excluir Apenas para Testes -->
+    <div class="col">
+      <div class="card card-cover  overflow-hidden text-white rounded-5 " style="background: #ec552c">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <!-- Escrever Codigo Aqui-->
+          <form action="index.php" method="POST">
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <label class="sr-only" for="inlineFormInput">Digite id que deseja Excluir</label>
+                <input type="number" min="1" class="form-control mb-2" value="id_excluir" placeholder="1">
+              </div>
+          
+              <div class="col-auto">
+                <button type="teste" name="submit_excluir" class="btn btn-primary mb-2">Enviar</button>
+              </div>
+            </div>
+          </form>     
         </div>
       </div>
     </div>
