@@ -241,7 +241,7 @@
 
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="inputGroup-sizing-default">Valor do Item que quer Produzir: </span>
-                          <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item" required>
+                          <input type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="vl_item" required>
                         </div>
                         <!-- Teste Artefatos
 
@@ -256,13 +256,13 @@
                         <!-- Primeira caixa -->
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="inputGroup-sizing-default">Valor do Retorno de Recursos(%)</span>
-                          <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"name="porcentagem_retorno" required>
+                          <input type="number" min="15" max="80" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"name="porcentagem_retorno" required>
                         </div>
 
                         <!-- Segunda caixa -->
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="inputGroup-sizing-default">Quantidade de Itens a serem produzidos: </span>
-                          <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
+                          <input type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="qnt_item" required>
                         </div>
 
                         <!-- Terceira Caixa -->
@@ -270,13 +270,13 @@
                           <label  class="form-label">Recursos já Possuidos:</label>
                           <div class="col">
                             <label for="">Material que mais usa</label>
-                            <input type="number" class="form-control" placeholder="Exemplo: 20" value= "0" aria-label="inputGroup-sizing-default" name="qnt_primario" required>
+                            <input type="number" min="0" class="form-control" placeholder="Exemplo: 20" value= "0" aria-label="inputGroup-sizing-default" name="qnt_primario" required>
                           </div>
 
                         <!-- Quarta Caixa -->
                           <div class="col">
                             <label for="">Material que menos usa</label>
-                            <input type="number" class="form-control" placeholder="Exemplo: 12" value= "0" aria-label="inputGroup-sizing-default" name="qnt_secundario" required>
+                            <input type="number" min="0" class="form-control" placeholder="Exemplo: 12" value= "0" aria-label="inputGroup-sizing-default" name="qnt_secundario" required>
                           </div>
                         </div>
                         <br>
